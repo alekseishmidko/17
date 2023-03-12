@@ -1,0 +1,22 @@
+.App {
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+li {
+  max-width: 700px;
+  display: flex;
+  margin: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px 20px;
+  border: 1px black solid;
+}
+input:checked + span {
+  text-decoration: line-through;
+}
